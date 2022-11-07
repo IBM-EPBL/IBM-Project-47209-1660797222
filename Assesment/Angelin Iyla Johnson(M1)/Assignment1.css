@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.data {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.data h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+}
+
+.img img {
+    width: 190px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: -230px;
+    margin-top: 10px;
+}
+
+.dat-col {
+    width: 450px;
+    height: 900px;
+    background-color: #783535;
+    margin: 20px 20px 0px 30px;
+    border-radius: 20px;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    border-collapse: collapse;
+    width: 450px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    text-align: center;
+}
+
+tr {
+    border-style: solid;
+    border-color: #926363;
+}
+
+td {
+    padding: 8px;
+    background-color: #895b5b;
+    color: #cec2c2;
+}
+
+.tr-even td {
+    background: none;
+}
+
+.about h1 {
+    font-size: 50px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.bar {
+    background: #fdfdfd;
+    display: block;
+    height: 5px;
+    width: 80%;
+    margin-left: 40px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #681515b3;
+}
+
+.bar span {
+    height: 5px;
+    float: left;
+    background: #000000;
+}
+
+.html {
+    width: 60%;
+    animation: html 1s;
+}
+
+.css {
+    width: 50%;
+    animation: css 1s;
+}
+
+.js {
+    width: 70%;
+    animation: js 1s;
+}
+
+.py {
+    width: 90%;
+    animation: py 1s;
+}
+
+.C {
+    width: 40%;
+    animation: C 1s;
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 87%;
+    }
+}
+
+@keyframes js {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 40%;
+    }
+}
+
+@keyframes py {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes C {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+.html span::before {
+    position: absolute;
+    content: "";
+    right: 0;
+    height: 0;
+    top: -10px;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0;
+    border-right-width: 0;
+    border-top-color: #000;
+}
+
+.html span::after {
+    position: absolute;
+    content: "80%";
+    height: 0;
+    right: 0;
+    top: -28px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    background: #000;
+    padding: 1px 8px;
+    border-radius: 3px;
+}
+
+.contact-col input,
+.contact-col textarea {
+    width: 70%;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.contact-col span a {
+    color: #555;
+    text-decoration: none;
+}
+
+.red-btn {
+    border: 1px solid #ffffff;
+    background: transparent;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 12px 34px;
+    margin-top: 20px;
+    font-size: 13px;
+    background-color: #f44336;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.red-btn:hover {
+    color: rgb(11, 0, 0);
+}
